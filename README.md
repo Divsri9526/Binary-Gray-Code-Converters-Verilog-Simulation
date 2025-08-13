@@ -45,9 +45,8 @@ Binary_in = 1111 | Gray_out = 1000 |-| Gray_in = 1000 | Binary_out = 1111
 ---
 
 ## 👨‍💻 Author
--> Divyansh Srivastava
-📧 divyanshsri108@gmail.com
-🌐 www.linkedin.com/in/divyansh-srivastava-00b74632a
-
+- Divyansh Srivastava
+- 📧 divyanshsri108@gmail.com
+- 🌐 www.linkedin.com/in/divyansh-srivastava-00b74632a
 git clone https://github.com/your-username/verilog-binary-gray-converters.git
 cd verilog-binary-gray-converters
