@@ -1,0 +1,18 @@
+module gray_to_binary_tb;
+    reg  [3:0] gray_in;
+    wire [3:0] binary_out;
+
+    gray_to_binary #(4) uut (.gray_in(gray_in), .binary_out(binary_out));
+
+    initial begin
+        $monitor("Gray = %b | Binary = %b", gray_in, binary_out);
+        
+        gray_in = 4'b0000; #10;
+        gray_in = 4'b0001; #10;
+        gray_in = 4'b0011; #10;
+        gray_in = 4'b0110; #10;
+        gray_in = 4'b1000; #10;
+        $finish;
+    end
+endmodule
+
