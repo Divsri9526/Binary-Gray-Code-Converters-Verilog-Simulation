@@ -36,11 +36,13 @@ For an N-bit number:
 
 ## 📌 Example Simulation Output
 
-Binary_in = 0000 | Gray_out = 0000 |-| Gray_in = 0000 | Binary_out = 0000
-Binary_in = 0001 | Gray_out = 0001 |-| Gray_in = 0001 | Binary_out = 0001
-Binary_in = 0010 | Gray_out = 0011 |-| Gray_in = 0011 | Binary_out = 0010
-Binary_in = 0100 | Gray_out = 0110 |-| Gray_in = 0110 | Binary_out = 0100
-Binary_in = 1111 | Gray_out = 1000 |-| Gray_in = 1000 | Binary_out = 1111
+| Binary Input (`binary_in`) | Gray Output (`gray_out`) | Gray Input (`gray_in`) | Binary Output (`binary_out`) |
+| -------------------------- | ------------------------ | ---------------------- | ---------------------------- |
+| 0000                       | 0000                     | 0000                   | 0000                         |
+| 0001                       | 0001                     | 0001                   | 0001                         |
+| 0010                       | 0011                     | 0011                   | 0010                         |
+| 0100                       | 0110                     | 0110                   | 0100                         |
+| 1111                       | 1000                     | 1000                   | 1111                         |
 
 ---
 
